@@ -12,9 +12,14 @@
 		7324F0381EA4C0F100B46ABC /* BYGeneralCodeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7324F0371EA4C0F100B46ABC /* BYGeneralCodeDemoTests.m */; };
 		7324F0431EA4C0F100B46ABC /* BYGeneralCodeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7324F0421EA4C0F100B46ABC /* BYGeneralCodeDemoUITests.m */; };
 		7324F0531EA4C27000B46ABC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7324F0521EA4C27000B46ABC /* AppDelegate.m */; };
+		7354FA3B1F57F5F700914625 /* UIImage+BYCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 7354FA3A1F57F5F700914625 /* UIImage+BYCustom.m */; };
+		7354FA3E1F57FD3E00914625 /* BYViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7354FA3D1F57FD3E00914625 /* BYViewModel.m */; };
+		7354FA411F57FF8D00914625 /* BYView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7354FA401F57FF8D00914625 /* BYView.m */; };
+		7354FA441F5804AD00914625 /* BYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7354FA431F5804AD00914625 /* BYTableViewCell.m */; };
 		73958B131EC1A6DD00E3F60A /* BYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73958B121EC1A6DD00E3F60A /* BYTabBarController.m */; };
 		73958B161EC1A73100E3F60A /* BYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73958B151EC1A73100E3F60A /* BYNavigationController.m */; };
 		73958B191EC1A77400E3F60A /* BYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73958B181EC1A77400E3F60A /* BYViewController.m */; };
+		73958B231EC40F7E00E3F60A /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 73958B221EC40F7E00E3F60A /* UIColor+Addition.m */; };
 		B6F468CAB1C60AEDEB3C1E80 /* Pods_BYGeneralCodeDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46705026BCA24B24AAEF9E4 /* Pods_BYGeneralCodeDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,12 +54,23 @@
 		7324F0511EA4C27000B46ABC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7324F0521EA4C27000B46ABC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7324F0541EA4C2FA00B46ABC /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7354FA391F57F5F700914625 /* UIImage+BYCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BYCustom.h"; sourceTree = "<group>"; };
+		7354FA3A1F57F5F700914625 /* UIImage+BYCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BYCustom.m"; sourceTree = "<group>"; };
+		7354FA3C1F57FD3E00914625 /* BYViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYViewModel.h; sourceTree = "<group>"; };
+		7354FA3D1F57FD3E00914625 /* BYViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYViewModel.m; sourceTree = "<group>"; };
+		7354FA3F1F57FF8D00914625 /* BYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYView.h; sourceTree = "<group>"; };
+		7354FA401F57FF8D00914625 /* BYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYView.m; sourceTree = "<group>"; };
+		7354FA421F5804AD00914625 /* BYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYTableViewCell.h; sourceTree = "<group>"; };
+		7354FA431F5804AD00914625 /* BYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYTableViewCell.m; sourceTree = "<group>"; };
 		73958B111EC1A6DD00E3F60A /* BYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYTabBarController.h; sourceTree = "<group>"; };
 		73958B121EC1A6DD00E3F60A /* BYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYTabBarController.m; sourceTree = "<group>"; };
 		73958B141EC1A73100E3F60A /* BYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYNavigationController.h; sourceTree = "<group>"; };
 		73958B151EC1A73100E3F60A /* BYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYNavigationController.m; sourceTree = "<group>"; };
 		73958B171EC1A77400E3F60A /* BYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYViewController.h; sourceTree = "<group>"; };
 		73958B181EC1A77400E3F60A /* BYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYViewController.m; sourceTree = "<group>"; };
+		73958B1C1EC403B900E3F60A /* BYGeneralMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYGeneralMacro.h; sourceTree = "<group>"; };
+		73958B211EC40F7E00E3F60A /* UIColor+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
+		73958B221EC40F7E00E3F60A /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
 		8F684D943C4B7DC51D3381FB /* Pods-BYGeneralCodeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BYGeneralCodeDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BYGeneralCodeDemo/Pods-BYGeneralCodeDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CEC654792F0F3D46AE168A21 /* Pods-BYGeneralCodeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BYGeneralCodeDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BYGeneralCodeDemo/Pods-BYGeneralCodeDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E46705026BCA24B24AAEF9E4 /* Pods_BYGeneralCodeDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BYGeneralCodeDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +119,12 @@
 				73958B151EC1A73100E3F60A /* BYNavigationController.m */,
 				73958B171EC1A77400E3F60A /* BYViewController.h */,
 				73958B181EC1A77400E3F60A /* BYViewController.m */,
+				7354FA3C1F57FD3E00914625 /* BYViewModel.h */,
+				7354FA3D1F57FD3E00914625 /* BYViewModel.m */,
+				7354FA3F1F57FF8D00914625 /* BYView.h */,
+				7354FA401F57FF8D00914625 /* BYView.m */,
+				7354FA421F5804AD00914625 /* BYTableViewCell.h */,
+				7354FA431F5804AD00914625 /* BYTableViewCell.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -134,6 +156,8 @@
 			children = (
 				7324F0501EA4C20500B46ABC /* AppDelegate */,
 				7309335B1EA85CA700B4F68E /* Base */,
+				73958B1D1EC4087C00E3F60A /* Categories */,
+				73958B1A1EC4013E00E3F60A /* Macro */,
 				735DD0EC1EA4CEAE0042FED9 /* Helpers */,
 				7309335A1EA85C4200B4F68E /* Sessions */,
 				7324F0291EA4C0F100B46ABC /* Assets.xcassets */,
@@ -223,6 +247,25 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		73958B1A1EC4013E00E3F60A /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				73958B1C1EC403B900E3F60A /* BYGeneralMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		73958B1D1EC4087C00E3F60A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				73958B211EC40F7E00E3F60A /* UIColor+Addition.h */,
+				73958B221EC40F7E00E3F60A /* UIColor+Addition.m */,
+				7354FA391F57F5F700914625 /* UIImage+BYCustom.h */,
+				7354FA3A1F57F5F700914625 /* UIImage+BYCustom.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		951C78B13FB055C6DCD4E8B6 /* Pods */ = {
@@ -424,11 +467,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7354FA3B1F57F5F700914625 /* UIImage+BYCustom.m in Sources */,
 				7324F0531EA4C27000B46ABC /* AppDelegate.m in Sources */,
+				7354FA411F57FF8D00914625 /* BYView.m in Sources */,
 				73958B131EC1A6DD00E3F60A /* BYTabBarController.m in Sources */,
+				7354FA441F5804AD00914625 /* BYTableViewCell.m in Sources */,
 				73958B191EC1A77400E3F60A /* BYViewController.m in Sources */,
 				73958B161EC1A73100E3F60A /* BYNavigationController.m in Sources */,
 				7324F01F1EA4C0F100B46ABC /* main.m in Sources */,
+				73958B231EC40F7E00E3F60A /* UIColor+Addition.m in Sources */,
+				7354FA3E1F57FD3E00914625 /* BYViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,10 +609,17 @@
 			baseConfigurationReference = 8F684D943C4B7DC51D3381FB /* Pods-BYGeneralCodeDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BYGeneralCodeDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = BYGeneralCodeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baoyin.BYGeneralCodeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -573,10 +628,17 @@
 			baseConfigurationReference = CEC654792F0F3D46AE168A21 /* Pods-BYGeneralCodeDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BYGeneralCodeDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = BYGeneralCodeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baoyin.BYGeneralCodeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

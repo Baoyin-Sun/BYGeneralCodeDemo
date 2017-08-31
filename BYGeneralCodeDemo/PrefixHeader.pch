@@ -9,7 +9,15 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
+#ifdef __OBJC__
+
+#import "AppDelegate.h"
+#import "UIColor+Addition.h"
+#import "UIImage+BYCustom.h"
+#import "BYGeneralMacro.h"
 #import <ReactiveCocoa/ReactiveCocoa.h>
 #import <Masonry/Masonry.h>
+
+#endif
 
 #endif /* PrefixHeader_pch */
