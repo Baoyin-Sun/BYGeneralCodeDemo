@@ -16,6 +16,7 @@
 		7354FA3E1F57FD3E00914625 /* BYViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7354FA3D1F57FD3E00914625 /* BYViewModel.m */; };
 		7354FA411F57FF8D00914625 /* BYView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7354FA401F57FF8D00914625 /* BYView.m */; };
 		7354FA441F5804AD00914625 /* BYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7354FA431F5804AD00914625 /* BYTableViewCell.m */; };
+		7354FA471F58147800914625 /* BYLogInCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7354FA461F58147800914625 /* BYLogInCtrl.m */; };
 		73958B131EC1A6DD00E3F60A /* BYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73958B121EC1A6DD00E3F60A /* BYTabBarController.m */; };
 		73958B161EC1A73100E3F60A /* BYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73958B151EC1A73100E3F60A /* BYNavigationController.m */; };
 		73958B191EC1A77400E3F60A /* BYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73958B181EC1A77400E3F60A /* BYViewController.m */; };
@@ -62,6 +63,8 @@
 		7354FA401F57FF8D00914625 /* BYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYView.m; sourceTree = "<group>"; };
 		7354FA421F5804AD00914625 /* BYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYTableViewCell.h; sourceTree = "<group>"; };
 		7354FA431F5804AD00914625 /* BYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYTableViewCell.m; sourceTree = "<group>"; };
+		7354FA451F58147800914625 /* BYLogInCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BYLogInCtrl.h; path = BYGeneralCodeDemo/Base/BYLogInCtrl.h; sourceTree = SOURCE_ROOT; };
+		7354FA461F58147800914625 /* BYLogInCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BYLogInCtrl.m; path = BYGeneralCodeDemo/Base/BYLogInCtrl.m; sourceTree = SOURCE_ROOT; };
 		73958B111EC1A6DD00E3F60A /* BYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYTabBarController.h; sourceTree = "<group>"; };
 		73958B121EC1A6DD00E3F60A /* BYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYTabBarController.m; sourceTree = "<group>"; };
 		73958B141EC1A73100E3F60A /* BYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYNavigationController.h; sourceTree = "<group>"; };
@@ -238,6 +241,8 @@
 		73958B0F1EC1A62400E3F60A /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				7354FA451F58147800914625 /* BYLogInCtrl.h */,
+				7354FA461F58147800914625 /* BYLogInCtrl.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -475,6 +480,7 @@
 				73958B191EC1A77400E3F60A /* BYViewController.m in Sources */,
 				73958B161EC1A73100E3F60A /* BYNavigationController.m in Sources */,
 				7324F01F1EA4C0F100B46ABC /* main.m in Sources */,
+				7354FA471F58147800914625 /* BYLogInCtrl.m in Sources */,
 				73958B231EC40F7E00E3F60A /* UIColor+Addition.m in Sources */,
 				7354FA3E1F57FD3E00914625 /* BYViewModel.m in Sources */,
 			);

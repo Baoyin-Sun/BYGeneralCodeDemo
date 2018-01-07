@@ -9,6 +9,7 @@
 #import "BYTabBarController.h"
 #import "BYNavigationController.h"
 #import "BYViewController.h"
+#import "BYLogInCtrl.h"
 
 @interface BYTabBarController ()
 @end
@@ -32,7 +33,7 @@
 //自定义tabbarController结构及UI
 - (void)customerTabBarVC {
     //base custom
-    NSArray *namesArr = @[@"HomePageViewController", @"BYPatientManagerCtrl", @"MeViewController"];
+    NSArray *namesArr = @[@"BYLogInCtrl", @"BYLogInCtrl", @"BYLogInCtrl"];
     NSArray *titlesArr = @[@"工作台", @"患者中心", @"我的"];
     NSArray *nImagesArr = @[@"ic_homepage_s", @"ic_patient_s", @"ic_my_s"];
     NSArray *sImagesArr = @[@"ic_homepage", @"ic_patient", @"ic_my"];
