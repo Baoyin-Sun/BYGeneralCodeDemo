@@ -16,11 +16,14 @@
 		7354FA3E1F57FD3E00914625 /* BYViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7354FA3D1F57FD3E00914625 /* BYViewModel.m */; };
 		7354FA411F57FF8D00914625 /* BYView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7354FA401F57FF8D00914625 /* BYView.m */; };
 		7354FA441F5804AD00914625 /* BYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7354FA431F5804AD00914625 /* BYTableViewCell.m */; };
-		7354FA471F58147800914625 /* BYLogInCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7354FA461F58147800914625 /* BYLogInCtrl.m */; };
 		73958B131EC1A6DD00E3F60A /* BYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73958B121EC1A6DD00E3F60A /* BYTabBarController.m */; };
 		73958B161EC1A73100E3F60A /* BYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73958B151EC1A73100E3F60A /* BYNavigationController.m */; };
 		73958B191EC1A77400E3F60A /* BYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73958B181EC1A77400E3F60A /* BYViewController.m */; };
 		73958B231EC40F7E00E3F60A /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 73958B221EC40F7E00E3F60A /* UIColor+Addition.m */; };
+		73A7E0FD20EA093400915EFA /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A7E0FC20EA093400915EFA /* LoginViewModel.m */; };
+		73A7E10920EA097C00915EFA /* LoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A7E10820EA097C00915EFA /* LoginModel.m */; };
+		73A7E10C20EA099000915EFA /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A7E10B20EA099000915EFA /* LoginView.m */; };
+		73A7E10F20EA09AC00915EFA /* LoginCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A7E10E20EA09AC00915EFA /* LoginCtrl.m */; };
 		B6F468CAB1C60AEDEB3C1E80 /* Pods_BYGeneralCodeDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46705026BCA24B24AAEF9E4 /* Pods_BYGeneralCodeDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,8 +66,6 @@
 		7354FA401F57FF8D00914625 /* BYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYView.m; sourceTree = "<group>"; };
 		7354FA421F5804AD00914625 /* BYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYTableViewCell.h; sourceTree = "<group>"; };
 		7354FA431F5804AD00914625 /* BYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYTableViewCell.m; sourceTree = "<group>"; };
-		7354FA451F58147800914625 /* BYLogInCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BYLogInCtrl.h; path = BYGeneralCodeDemo/Base/BYLogInCtrl.h; sourceTree = SOURCE_ROOT; };
-		7354FA461F58147800914625 /* BYLogInCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BYLogInCtrl.m; path = BYGeneralCodeDemo/Base/BYLogInCtrl.m; sourceTree = SOURCE_ROOT; };
 		73958B111EC1A6DD00E3F60A /* BYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYTabBarController.h; sourceTree = "<group>"; };
 		73958B121EC1A6DD00E3F60A /* BYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYTabBarController.m; sourceTree = "<group>"; };
 		73958B141EC1A73100E3F60A /* BYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYNavigationController.h; sourceTree = "<group>"; };
@@ -74,6 +75,14 @@
 		73958B1C1EC403B900E3F60A /* BYGeneralMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYGeneralMacro.h; sourceTree = "<group>"; };
 		73958B211EC40F7E00E3F60A /* UIColor+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
 		73958B221EC40F7E00E3F60A /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
+		73A7E0FB20EA093400915EFA /* LoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		73A7E0FC20EA093400915EFA /* LoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		73A7E10720EA097C00915EFA /* LoginModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginModel.h; sourceTree = "<group>"; };
+		73A7E10820EA097C00915EFA /* LoginModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginModel.m; sourceTree = "<group>"; };
+		73A7E10A20EA099000915EFA /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		73A7E10B20EA099000915EFA /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		73A7E10D20EA09AC00915EFA /* LoginCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginCtrl.h; sourceTree = "<group>"; };
+		73A7E10E20EA09AC00915EFA /* LoginCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginCtrl.m; sourceTree = "<group>"; };
 		8F684D943C4B7DC51D3381FB /* Pods-BYGeneralCodeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BYGeneralCodeDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BYGeneralCodeDemo/Pods-BYGeneralCodeDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CEC654792F0F3D46AE168A21 /* Pods-BYGeneralCodeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BYGeneralCodeDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BYGeneralCodeDemo/Pods-BYGeneralCodeDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E46705026BCA24B24AAEF9E4 /* Pods_BYGeneralCodeDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BYGeneralCodeDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,14 +114,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7309335A1EA85C4200B4F68E /* Sessions */ = {
-			isa = PBXGroup;
-			children = (
-				73958B0C1EC1A62400E3F60A /* LoginRelated */,
-			);
-			path = Sessions;
-			sourceTree = "<group>";
-		};
 		7309335B1EA85CA700B4F68E /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,8 +162,8 @@
 				7309335B1EA85CA700B4F68E /* Base */,
 				73958B1D1EC4087C00E3F60A /* Categories */,
 				73958B1A1EC4013E00E3F60A /* Macro */,
-				735DD0EC1EA4CEAE0042FED9 /* Helpers */,
-				7309335A1EA85C4200B4F68E /* Sessions */,
+				73A7E0F020EA084B00915EFA /* Helpers */,
+				73A7E0F120EA08A700915EFA /* Sections */,
 				7324F0291EA4C0F100B46ABC /* Assets.xcassets */,
 				7324F02E1EA4C0F100B46ABC /* Info.plist */,
 				7324F01D1EA4C0F100B46ABC /* Supporting Files */,
@@ -206,54 +207,6 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
-		735DD0EC1EA4CEAE0042FED9 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		73958B0C1EC1A62400E3F60A /* LoginRelated */ = {
-			isa = PBXGroup;
-			children = (
-				73958B0D1EC1A62400E3F60A /* Model */,
-				73958B0E1EC1A62400E3F60A /* View */,
-				73958B0F1EC1A62400E3F60A /* ViewController */,
-				73958B101EC1A62400E3F60A /* ViewModel */,
-			);
-			path = LoginRelated;
-			sourceTree = "<group>";
-		};
-		73958B0D1EC1A62400E3F60A /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		73958B0E1EC1A62400E3F60A /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		73958B0F1EC1A62400E3F60A /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				7354FA451F58147800914625 /* BYLogInCtrl.h */,
-				7354FA461F58147800914625 /* BYLogInCtrl.m */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		73958B101EC1A62400E3F60A /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		73958B1A1EC4013E00E3F60A /* Macro */ = {
 			isa = PBXGroup;
 			children = (
@@ -271,6 +224,68 @@
 				7354FA3A1F57F5F700914625 /* UIImage+BYCustom.m */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		73A7E0F020EA084B00915EFA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		73A7E0F120EA08A700915EFA /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				73A7E0F620EA092100915EFA /* LoginSection */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		73A7E0F620EA092100915EFA /* LoginSection */ = {
+			isa = PBXGroup;
+			children = (
+				73A7E0F720EA092100915EFA /* ViewModel */,
+				73A7E0F820EA092100915EFA /* Model */,
+				73A7E0F920EA092100915EFA /* View */,
+				73A7E0FA20EA092100915EFA /* ViewController */,
+			);
+			path = LoginSection;
+			sourceTree = "<group>";
+		};
+		73A7E0F720EA092100915EFA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				73A7E0FB20EA093400915EFA /* LoginViewModel.h */,
+				73A7E0FC20EA093400915EFA /* LoginViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		73A7E0F820EA092100915EFA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				73A7E10720EA097C00915EFA /* LoginModel.h */,
+				73A7E10820EA097C00915EFA /* LoginModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73A7E0F920EA092100915EFA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				73A7E10A20EA099000915EFA /* LoginView.h */,
+				73A7E10B20EA099000915EFA /* LoginView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73A7E0FA20EA092100915EFA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				73A7E10D20EA09AC00915EFA /* LoginCtrl.h */,
+				73A7E10E20EA09AC00915EFA /* LoginCtrl.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		951C78B13FB055C6DCD4E8B6 /* Pods */ = {
@@ -426,9 +441,20 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BYGeneralCodeDemo/Pods-BYGeneralCodeDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -456,13 +482,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BYGeneralCodeDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -474,15 +503,18 @@
 			files = (
 				7354FA3B1F57F5F700914625 /* UIImage+BYCustom.m in Sources */,
 				7324F0531EA4C27000B46ABC /* AppDelegate.m in Sources */,
+				73A7E10C20EA099000915EFA /* LoginView.m in Sources */,
+				73A7E0FD20EA093400915EFA /* LoginViewModel.m in Sources */,
+				73A7E10F20EA09AC00915EFA /* LoginCtrl.m in Sources */,
 				7354FA411F57FF8D00914625 /* BYView.m in Sources */,
 				73958B131EC1A6DD00E3F60A /* BYTabBarController.m in Sources */,
 				7354FA441F5804AD00914625 /* BYTableViewCell.m in Sources */,
 				73958B191EC1A77400E3F60A /* BYViewController.m in Sources */,
 				73958B161EC1A73100E3F60A /* BYNavigationController.m in Sources */,
 				7324F01F1EA4C0F100B46ABC /* main.m in Sources */,
-				7354FA471F58147800914625 /* BYLogInCtrl.m in Sources */,
 				73958B231EC40F7E00E3F60A /* UIColor+Addition.m in Sources */,
 				7354FA3E1F57FD3E00914625 /* BYViewModel.m in Sources */,
+				73A7E10920EA097C00915EFA /* LoginModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
